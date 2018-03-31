@@ -40,7 +40,7 @@ class Conclusion extends React.Component {
         super(props);
         this.advice = this.props.Item.advice;
         this.btns = this.props.Item.btns; //解构赋值怎么用？
-        this.dls=this.props.Item.dls;
+        this.dls = this.props.Item.dls;
         this.state = {
             editVisible: false,
             delVisible: false,
@@ -51,12 +51,14 @@ class Conclusion extends React.Component {
 
     /**
      * 输出编辑窗体
-     * 
-     * @returns 
+     *
+     * @returns
      * @memberof Conclusion
      */
     getEditMoal() {
-       return ( <Advice Visible={this.state.editVisible} Advice={this.advice}></Advice> )
+        return (
+            <Advice Visible={this.state.editVisible} Advice={this.advice}></Advice>
+        )
     }
 
     getDelMoal() {
@@ -87,8 +89,6 @@ class Conclusion extends React.Component {
     handleCancel = () => {
         this.setState({editVisible: false, delVisible: false})
     }
-
-
 
     render() {
         let icomap = {

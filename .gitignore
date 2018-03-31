@@ -2,6 +2,9 @@
 
 # dependencies
 /node_modules
+bin
+obj
+.vs
 
 # testing
 /coverage
