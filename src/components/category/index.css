@@ -1,0 +1,19 @@
+.category{
+    padding: 20px 20px 0 20px;
+}
+
+.category-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.category-title-text{
+    line-height: 30px;
+    font-size: 16px;
+    color:#1455ad
+    
+}
+
+.category-title-btn{
+    margin-left: 40px;
+}

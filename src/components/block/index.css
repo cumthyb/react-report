@@ -1,0 +1,28 @@
+.title{
+     color: #1455ad;
+}
+
+#report .title-level-0{
+    text-align: center;
+}
+
+
+.title-main{
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+}
+.title-sub{
+    font-size: 24px;
+
+}
+
+.title-icon{
+    font-size: 24px;
+    margin: 12px 0 16px;
+    color: #08c;
+    margin-left: 20px;
+    margin-right: 20px;
+}
