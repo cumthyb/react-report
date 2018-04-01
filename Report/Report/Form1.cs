@@ -44,6 +44,9 @@ namespace Report
             return table;
         }
 
+        /// <summary>
+        /// 构造页面结构
+        /// </summary>
         public void StructPage()
         {
             _page.blocks.Clear();
@@ -181,7 +184,6 @@ namespace Report
             };
             _page.blocks.Add(block);
             #endregion
-
 
             #region 决策建议
             block = new Block()
